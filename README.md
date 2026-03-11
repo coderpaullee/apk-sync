@@ -1,4 +1,4 @@
-# apk-test
+# apk-sync
 
 This repository stores the APK registry used by Android devices.
 
