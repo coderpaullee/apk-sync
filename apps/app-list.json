@@ -3,6 +3,15 @@
   "updated": "2026-03-11",
   "apps": [
     {
+      "name": "Mixplorer",
+      "package": "com.mixplorer",
+      "version": "6.70.3",
+      "apk_url": "https://github.com/coderpaullee/apks/releases/download/com.mixplorer-6.70.3/MiXplorer_v6.70.3_B26022812-arm64.apk",
+      "source_url": "https://github.com/coderpaullee/apks",
+      "description": "Android file manager",
+      "sha256": "7be3a792b3baf735d2ef3e5ba023b0a1fb1212ef6634b24523e7cd0a86b2c250"
+    },
+    {
       "name": "VLC",
       "package": "org.videolan.vlc",
       "version": "3.7.0",
