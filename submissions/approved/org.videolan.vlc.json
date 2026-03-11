@@ -1,0 +1,13 @@
+{
+  "name": "VLC",
+  "package": "org.videolan.vlc",
+  "version": "3.7.0",
+  "apk_url": "https://get.videolan.org/vlc-android/3.7.0/VLC-Android-3.7.0-arm64-v8a.apk",
+  "source_url": "https://www.videolan.org/vlc/download-android.html",
+  "description": "Open source video player",
+  "sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+  "approved_at": "2026-03-11",
+  "tested_on": [
+    "Reference Device A"
+  ]
+}

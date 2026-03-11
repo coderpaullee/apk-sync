@@ -1,0 +1,50 @@
+name: App submission
+description: Suggest a new app
+title: "[APP] "
+body:
+- type: input
+  id: name
+  attributes:
+    label: App Name
+    description: The exact app name shown to users
+  validations:
+    required: true
+
+- type: input
+  id: package
+  attributes:
+    label: Package Name
+    description: Example: org.videolan.vlc
+  validations:
+    required: true
+
+- type: input
+  id: version
+  attributes:
+    label: Version
+  validations:
+    required: true
+
+- type: input
+  id: apk_url
+  attributes:
+    label: APK Download URL
+    description: Direct APK link if available
+  validations:
+    required: true
+
+- type: input
+  id: website
+  attributes:
+    label: Source Website
+    description: Official website or trusted source page
+  validations:
+    required: true
+
+- type: textarea
+  id: description
+  attributes:
+    label: Description
+    description: Explain why this app is needed on devices
+  validations:
+    required: true

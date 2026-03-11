@@ -1,0 +1,5 @@
+# Changelog
+
+## 2026-03-11
+- Initial registry created
+- Added VLC example
