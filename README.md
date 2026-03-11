@@ -1,69 +1,41 @@
 # apk-test
 
-This repository stores the APK registry consumed by our Android devices.
+This repository stores the APK registry used by Android devices.
 
-Devices only read `apps/app-list.json`. Maintainers do not edit that file by hand. The source of truth is `submissions/approved/*.json`, and the registry is generated from those approved submissions.
+Devices only read [`apps/app-list.json`](./apps/app-list.json). Maintainers do not edit that file by hand. The source of truth is `submissions/approved/*.json`, and the registry is generated from those approved submissions.
 
-## Workflow
+## For Users
 
-1. Users submit an app request through a GitHub Issue.
-2. Maintainers verify the APK link, package name, version, and installation safety.
-3. Approved apps are recorded as JSON files in `submissions/approved/`.
-4. Run `python3 scripts/sync_registry.py --write` to validate approved submissions and rebuild `apps/app-list.json`.
-5. Commit the submission file and generated registry together.
+Need an app on the device:
 
-## Repository Layout
+- Open a GitHub Issue with the app name, package name, version, APK link, source website, and usage description.
+- Read the detailed submission guide in [`docs/submit-app.md`](./docs/submit-app.md).
 
-- `apps/app-list.json`: generated device-facing registry
-- `apps/changelog.md`: high-level manual changelog
-- `submissions/approved/`: approved app records, one JSON file per app
-- `scripts/sync_registry.py`: validation and sync script
-- `docs/`: operator-facing workflow and policy docs
+## For Maintainers
 
-## Approved Submission Format
+Review and publish apps:
 
-Each file in `submissions/approved/` must include:
+- Follow the review and sync process in [`docs/maintainer-workflow.md`](./docs/maintainer-workflow.md).
+- Apply the acceptance and removal rules in [`docs/policy.md`](./docs/policy.md).
+- Store approved apps in [`submissions/approved`](./submissions/approved).
+- Rebuild the registry with `python3 scripts/sync_registry.py --write`.
 
-- `name`
-- `package`
-- `version`
-- `apk_url`
-- `source_url`
-- `description`
-- `sha256`
-- `approved_at`
+## For Devices
 
-Optional:
+Use these files:
 
-- `tested_on`
+- [`apps/app-list.json`](./apps/app-list.json): generated app registry
+- [`apps/changelog.md`](./apps/changelog.md): manual release notes
 
-Example:
+## Validation
 
-```json
-{
-  "name": "VLC",
-  "package": "org.videolan.vlc",
-  "version": "3.7.0",
-  "apk_url": "https://get.videolan.org/vlc-android/3.7.0/VLC-Android-3.7.0-arm64-v8a.apk",
-  "source_url": "https://www.videolan.org/vlc/download-android.html",
-  "description": "Open source video player",
-  "sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
-  "approved_at": "2026-03-11",
-  "tested_on": [
-    "Reference Device A"
-  ]
-}
-```
-
-## Commands
-
-Validate approved submissions without changing files:
+Check approved submissions without rewriting files:
 
 ```bash
 python3 scripts/sync_registry.py --check
 ```
 
-Rebuild the device registry:
+Generate the device registry:
 
 ```bash
 python3 scripts/sync_registry.py --write

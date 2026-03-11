@@ -14,7 +14,7 @@ body:
   id: package
   attributes:
     label: Package Name
-    description: Example: org.videolan.vlc
+    description: org.videolan.vlc
   validations:
     required: true
 
