@@ -1,0 +1,10 @@
+{
+  "name": "Chrome",
+  "package": "com.android.chrome",
+  "version": "138.0.7204.179",
+  "apk_url": "https://github.com/coderpaullee/apks/releases/download/com.android.chrome-138.0.7204.179/GoogleChrome_138.0.7204.179.apk",
+  "source_url": "https://github.com/coderpaullee/apks",
+  "description": "Web browser",
+  "sha256": "3d9414001b3e2555831cd014df2c9ae5a6eab10190c4cffce7ecaad3c0f53f23",
+  "approved_at": "2026-03-12"
+}

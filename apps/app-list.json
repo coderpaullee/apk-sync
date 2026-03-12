@@ -3,13 +3,13 @@
   "updated": "2026-03-12",
   "apps": [
     {
-      "name": "Firefox",
-      "package": "org.mozilla.firefox",
-      "version": "148.0.1",
-      "apk_url": "https://github.com/coderpaullee/apks/releases/download/org.mozilla.firefox-148.0.1/Firefox_148.0.1.xapk",
+      "name": "Chrome",
+      "package": "com.android.chrome",
+      "version": "138.0.7204.179",
+      "apk_url": "https://github.com/coderpaullee/apks/releases/download/com.android.chrome-138.0.7204.179/GoogleChrome_138.0.7204.179.apk",
       "source_url": "https://github.com/coderpaullee/apks",
       "description": "Web browser",
-      "sha256": "d184163da84390fac17b21e1d60a263e7bcaa36490cf81918cedcde600518ffc"
+      "sha256": "3d9414001b3e2555831cd014df2c9ae5a6eab10190c4cffce7ecaad3c0f53f23"
     },
     {
       "name": "Instagram",
@@ -30,16 +30,7 @@
       "sha256": "589757edb8e642217c44a61faf2cd045e066583a27defe9beddd941264bb6235"
     },
     {
-      "name": "Mixplorer",
-      "package": "com.mixplorer",
-      "version": "6.70.3",
-      "apk_url": "https://github.com/coderpaullee/apks/releases/download/com.mixplorer-6.70.3/MiXplorer_v6.70.3_B26022812-arm64.apk",
-      "source_url": "https://github.com/coderpaullee/apks",
-      "description": "File manager",
-      "sha256": "7be3a792b3baf735d2ef3e5ba023b0a1fb1212ef6634b24523e7cd0a86b2c250"
-    },
-    {
-      "name": "SpeedifyInstaller",
+      "name": "Speedify",
       "package": "com.speedify.speedifyandroid",
       "version": "16.0.2.13903",
       "apk_url": "https://github.com/coderpaullee/apks/releases/download/com.speedify.speedifyandroid-16.0.2.13903/SpeedifyInstaller.apk",
