@@ -1,27 +1,69 @@
 {
   "config_version": 1,
-  "updated": "2026-03-11",
+  "updated": "2026-03-12",
   "apps": [
+    {
+      "name": "Firefox",
+      "package": "org.mozilla.firefox",
+      "version": "148.0.1",
+      "apk_url": "https://github.com/coderpaullee/apks/releases/download/org.mozilla.firefox-148.0.1/Firefox_148.0.1.xapk",
+      "source_url": "https://github.com/coderpaullee/apks",
+      "description": "Web browser",
+      "sha256": "d184163da84390fac17b21e1d60a263e7bcaa36490cf81918cedcde600518ffc"
+    },
+    {
+      "name": "Instagram",
+      "package": "com.instagram.android",
+      "version": "408.0.0.51.78",
+      "apk_url": "https://github.com/coderpaullee/apks/releases/download/com.instagram.android-408.0.0.51.78/Instagram_408.xapk",
+      "source_url": "https://github.com/coderpaullee/apks",
+      "description": "Live streaming",
+      "sha256": "728d3e535227c9e1fc629606c5c5c1ec913dc322c5b6854bf69c0bbb485d5aae"
+    },
+    {
+      "name": "IRL Pro",
+      "package": "app.irlpro.android",
+      "version": "3.5.23",
+      "apk_url": "https://github.com/coderpaullee/apks/releases/download/app.irlpro.android-3.5.23/IRL_Pro_3.5.23.xapk",
+      "source_url": "https://github.com/coderpaullee/apks",
+      "description": "Live streaming",
+      "sha256": "589757edb8e642217c44a61faf2cd045e066583a27defe9beddd941264bb6235"
+    },
     {
       "name": "Mixplorer",
       "package": "com.mixplorer",
       "version": "6.70.3",
       "apk_url": "https://github.com/coderpaullee/apks/releases/download/com.mixplorer-6.70.3/MiXplorer_v6.70.3_B26022812-arm64.apk",
       "source_url": "https://github.com/coderpaullee/apks",
-      "description": "Android file manager",
+      "description": "File manager",
       "sha256": "7be3a792b3baf735d2ef3e5ba023b0a1fb1212ef6634b24523e7cd0a86b2c250"
     },
     {
-      "name": "VLC",
-      "package": "org.videolan.vlc",
-      "version": "3.7.0",
-      "apk_url": "https://get.videolan.org/vlc-android/3.7.0/VLC-Android-3.7.0-arm64-v8a.apk",
-      "source_url": "https://www.videolan.org/vlc/download-android.html",
-      "description": "Open source video player",
-      "sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
-      "tested_on": [
-        "Reference Device A"
-      ]
+      "name": "SpeedifyInstaller",
+      "package": "com.speedify.speedifyandroid",
+      "version": "16.0.2.13903",
+      "apk_url": "https://github.com/coderpaullee/apks/releases/download/com.speedify.speedifyandroid-16.0.2.13903/SpeedifyInstaller.apk",
+      "source_url": "https://github.com/coderpaullee/apks",
+      "description": "VPN",
+      "sha256": "acd253473bb6579210b26b1711826aff91c3c98693479c1d24de76a157d8d8c6"
+    },
+    {
+      "name": "TikTok",
+      "package": "com.zhiliaoapp.musically",
+      "version": "42.8.3",
+      "apk_url": "https://github.com/coderpaullee/apks/releases/download/com.zhiliaoapp.musically-42.8.3/TikTok42.8.3.apk",
+      "source_url": "https://github.com/coderpaullee/apks",
+      "description": "Live streaming",
+      "sha256": "fc687cc4ac4ba2fda19517617802f84ee426f5aec551f0676ef36c48062273c6"
+    },
+    {
+      "name": "WPS Office",
+      "package": "cn.wps.moffice_eng",
+      "version": "14.34.1",
+      "apk_url": "https://github.com/coderpaullee/apks/releases/download/cn.wps.moffice_eng-14.34.1/wps.apk",
+      "source_url": "https://github.com/coderpaullee/apks",
+      "description": "Document editor",
+      "sha256": "5246c04a90876867c28e72144f47294b588f916284af44c112b43e3ab484e595"
     }
   ]
 }

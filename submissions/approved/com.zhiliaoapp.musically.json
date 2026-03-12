@@ -1,0 +1,10 @@
+{
+  "name": "TikTok",
+  "package": "com.zhiliaoapp.musically",
+  "version": "42.8.3",
+  "apk_url": "https://github.com/coderpaullee/apks/releases/download/com.zhiliaoapp.musically-42.8.3/TikTok42.8.3.apk",
+  "source_url": "https://github.com/coderpaullee/apks",
+  "description": "Live streaming",
+  "sha256": "fc687cc4ac4ba2fda19517617802f84ee426f5aec551f0676ef36c48062273c6",
+  "approved_at": "2026-03-12"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Instagram",
+  "package": "com.instagram.android",
+  "version": "408.0.0.51.78",
+  "apk_url": "https://github.com/coderpaullee/apks/releases/download/com.instagram.android-408.0.0.51.78/Instagram_408.xapk",
+  "source_url": "https://github.com/coderpaullee/apks",
+  "description": "Live streaming",
+  "sha256": "728d3e535227c9e1fc629606c5c5c1ec913dc322c5b6854bf69c0bbb485d5aae",
+  "approved_at": "2026-03-12"
+}

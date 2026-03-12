@@ -1,0 +1,10 @@
+{
+  "name": "SpeedifyInstaller",
+  "package": "com.speedify.speedifyandroid",
+  "version": "16.0.2.13903",
+  "apk_url": "https://github.com/coderpaullee/apks/releases/download/com.speedify.speedifyandroid-16.0.2.13903/SpeedifyInstaller.apk",
+  "source_url": "https://github.com/coderpaullee/apks",
+  "description": "VPN",
+  "sha256": "acd253473bb6579210b26b1711826aff91c3c98693479c1d24de76a157d8d8c6",
+  "approved_at": "2026-03-12"
+}

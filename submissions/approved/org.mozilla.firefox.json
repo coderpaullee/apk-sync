@@ -1,0 +1,10 @@
+{
+  "name": "Firefox",
+  "package": "org.mozilla.firefox",
+  "version": "148.0.1",
+  "apk_url": "https://github.com/coderpaullee/apks/releases/download/org.mozilla.firefox-148.0.1/Firefox_148.0.1.xapk",
+  "source_url": "https://github.com/coderpaullee/apks",
+  "description": "Web browser",
+  "sha256": "d184163da84390fac17b21e1d60a263e7bcaa36490cf81918cedcde600518ffc",
+  "approved_at": "2026-03-12"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "IRL Pro",
+  "package": "app.irlpro.android",
+  "version": "3.5.23",
+  "apk_url": "https://github.com/coderpaullee/apks/releases/download/app.irlpro.android-3.5.23/IRL_Pro_3.5.23.xapk",
+  "source_url": "https://github.com/coderpaullee/apks",
+  "description": "Live streaming",
+  "sha256": "589757edb8e642217c44a61faf2cd045e066583a27defe9beddd941264bb6235",
+  "approved_at": "2026-03-12"
+}
