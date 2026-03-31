@@ -1,6 +1,6 @@
 {
   "config_version": 1,
-  "updated": "2026-03-12",
+  "updated": "2026-03-31",
   "apps": [
     {
       "name": "Chrome",
@@ -37,6 +37,15 @@
       "source_url": "https://github.com/coderpaullee/apks",
       "description": "VPN",
       "sha256": "acd253473bb6579210b26b1711826aff91c3c98693479c1d24de76a157d8d8c6"
+    },
+    {
+      "name": "Tailscale",
+      "package": "com.tailscale.ipn",
+      "version": "1.96.2",
+      "apk_url": "https://github.com/tailscale/tailscale-android/releases/download/1.96.2-td916d8651-ga82504d6b/tailscale-android-universal-1.96.2.apk",
+      "source_url": "https://github.com/tailscale/tailscale-android/releases",
+      "description": "VPN",
+      "sha256": "90257f1e9c6dcc4c639effd5c9bad39289762334424f89dec21cac9abaf8c7d6"
     },
     {
       "name": "TikTok",
