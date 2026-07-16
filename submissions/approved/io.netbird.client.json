@@ -1,0 +1,10 @@
+{
+  "name": "NetBird",
+  "package": "io.netbird.client",
+  "version": "0.5.0",
+  "apk_url": "https://github.com/netbirdio/android-client/releases/download/v0.5.0/netbird-v0.5.0.apk",
+  "source_url": "https://github.com/netbirdio/android-client",
+  "description": "VPN",
+  "sha256": "c2f2ef6bc6aece879383e5800090b75f04398464af33c4ba0c1d133243bc32ea",
+  "approved_at": "2026-07-16"
+}
