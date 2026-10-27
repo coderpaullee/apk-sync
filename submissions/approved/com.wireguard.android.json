@@ -1,0 +1,10 @@
+{
+  "name": "WireGuard",
+  "package": "com.wireguard.android",
+  "version": "1.0.20260315",
+  "apk_url": "https://github.com/coderpaullee/apks/releases/download/com.wireguard.android-1.0.20260315/com.wireguard.android-1.0.20260315.apk",
+  "source_url": "https://github.com/coderpaullee/apks",
+  "description": "VPN",
+  "sha256": "f92971bc804f4c448e8845ae97e426095eab06ec09a2473a3fa2cfe7288e3298",
+  "approved_at": "2026-10-27"
+}

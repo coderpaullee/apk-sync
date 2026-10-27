@@ -1,0 +1,10 @@
+{
+  "name": "Larix Broadcaster",
+  "package": "com.softvelum.larixbroadcaster.web",
+  "version": "1.5.13-Web",
+  "apk_url": "https://github.com/coderpaullee/apks/releases/download/com.softvelum.larixbroadcaster.web-1.5.13-Web/larixbroadcaster-1.5.13-web.apk",
+  "source_url": "https://github.com/coderpaullee/apks",
+  "description": "Live streaming",
+  "sha256": "8466113c0a730cc65213d1947d536c1df7f104564d372fc70562097664f16afa",
+  "approved_at": "2026-10-27"
+}

@@ -1,7 +1,16 @@
 {
   "config_version": 1,
-  "updated": "2026-09-29",
+  "updated": "2026-10-27",
   "apps": [
+    {
+      "name": "Blip",
+      "package": "net.blip.android",
+      "version": "1.1.15",
+      "apk_url": "https://github.com/coderpaullee/apks/releases/download/net.blip.android-1.1.15/Blip_1.1.15_APKPure.xapk",
+      "source_url": "https://github.com/coderpaullee/apks",
+      "description": "File transfer",
+      "sha256": "ac4f67d7a11676c4072215a7bac3e6a0191ddaeecb0d4c23bc4e2eb7b9baeb57"
+    },
     {
       "name": "Chrome",
       "package": "com.android.chrome",
@@ -30,6 +39,24 @@
       "sha256": "589757edb8e642217c44a61faf2cd045e066583a27defe9beddd941264bb6235"
     },
     {
+      "name": "LANDrop",
+      "package": "app.landrop.landrop_flutter",
+      "version": "2.8.1",
+      "apk_url": "https://github.com/coderpaullee/apks/releases/download/app.landrop.landrop_flutter-2.8.1/LANDrop-2.8.1.apk",
+      "source_url": "https://github.com/coderpaullee/apks",
+      "description": "File transfer",
+      "sha256": "bb28ebe2942240d9ec4fe9a54e6819a2be77bc876702579365236f6226817973"
+    },
+    {
+      "name": "Larix Broadcaster",
+      "package": "com.softvelum.larixbroadcaster.web",
+      "version": "1.5.13-Web",
+      "apk_url": "https://github.com/coderpaullee/apks/releases/download/com.softvelum.larixbroadcaster.web-1.5.13-Web/larixbroadcaster-1.5.13-web.apk",
+      "source_url": "https://github.com/coderpaullee/apks",
+      "description": "Live streaming",
+      "sha256": "8466113c0a730cc65213d1947d536c1df7f104564d372fc70562097664f16afa"
+    },
+    {
       "name": "NetBird",
       "package": "io.netbird.client",
       "version": "0.5.0",
@@ -37,6 +64,15 @@
       "source_url": "https://github.com/netbirdio/android-client",
       "description": "VPN",
       "sha256": "c2f2ef6bc6aece879383e5800090b75f04398464af33c4ba0c1d133243bc32ea"
+    },
+    {
+      "name": "OpenVPN Connect",
+      "package": "net.openvpn.openvpn",
+      "version": "3.7.1",
+      "apk_url": "https://github.com/coderpaullee/apks/releases/download/net.openvpn.openvpn-3.7.1/OpenVPN-Connect_3.7.1_APKPure.xapk",
+      "source_url": "https://github.com/coderpaullee/apks",
+      "description": "VPN",
+      "sha256": "f4306ca64959c2f089c3c3684952ab7955c813d926e2565534655d82e84b0cae"
     },
     {
       "name": "Speedify",
@@ -66,6 +102,24 @@
       "sha256": "fc687cc4ac4ba2fda19517617802f84ee426f5aec551f0676ef36c48062273c6"
     },
     {
+      "name": "VLC",
+      "package": "org.videolan.vlc",
+      "version": "3.7.0",
+      "apk_url": "https://github.com/coderpaullee/apks/releases/download/org.videolan.vlc-3.7.0/VLC-Android-3.7.0-arm64-v8a.apk",
+      "source_url": "https://github.com/coderpaullee/apks",
+      "description": "Media player",
+      "sha256": "4f3c08e4ef6f66ee1f9abd27115790d6e9d160226bb7158787c7b21d3cae924f"
+    },
+    {
+      "name": "WireGuard",
+      "package": "com.wireguard.android",
+      "version": "1.0.20260315",
+      "apk_url": "https://github.com/coderpaullee/apks/releases/download/com.wireguard.android-1.0.20260315/com.wireguard.android-1.0.20260315.apk",
+      "source_url": "https://github.com/coderpaullee/apks",
+      "description": "VPN",
+      "sha256": "f92971bc804f4c448e8845ae97e426095eab06ec09a2473a3fa2cfe7288e3298"
+    },
+    {
       "name": "WPS Office",
       "package": "cn.wps.moffice_eng",
       "version": "14.34.1",
@@ -73,6 +127,15 @@
       "source_url": "https://github.com/coderpaullee/apks",
       "description": "Document editor",
       "sha256": "5246c04a90876867c28e72144f47294b588f916284af44c112b43e3ab484e595"
+    },
+    {
+      "name": "ZeroTier One",
+      "package": "com.zerotier.one",
+      "version": "1.16.0-1",
+      "apk_url": "https://github.com/coderpaullee/apks/releases/download/com.zerotier.one-1.16.0-1/ZeroTier-One_1.16.0-1_APKPure.apk",
+      "source_url": "https://github.com/coderpaullee/apks",
+      "description": "VPN",
+      "sha256": "7d5c9a0e0ad63bbcbef6d63d6185085b5bbd58a9625422ad0958102626b37e8b"
     }
   ]
 }

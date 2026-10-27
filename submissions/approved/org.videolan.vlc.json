@@ -1,0 +1,10 @@
+{
+  "name": "VLC",
+  "package": "org.videolan.vlc",
+  "version": "3.7.0",
+  "apk_url": "https://github.com/coderpaullee/apks/releases/download/org.videolan.vlc-3.7.0/VLC-Android-3.7.0-arm64-v8a.apk",
+  "source_url": "https://github.com/coderpaullee/apks",
+  "description": "Media player",
+  "sha256": "4f3c08e4ef6f66ee1f9abd27115790d6e9d160226bb7158787c7b21d3cae924f",
+  "approved_at": "2026-10-27"
+}

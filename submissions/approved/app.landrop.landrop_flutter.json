@@ -1,0 +1,10 @@
+{
+  "name": "LANDrop",
+  "package": "app.landrop.landrop_flutter",
+  "version": "2.8.1",
+  "apk_url": "https://github.com/coderpaullee/apks/releases/download/app.landrop.landrop_flutter-2.8.1/LANDrop-2.8.1.apk",
+  "source_url": "https://github.com/coderpaullee/apks",
+  "description": "File transfer",
+  "sha256": "bb28ebe2942240d9ec4fe9a54e6819a2be77bc876702579365236f6226817973",
+  "approved_at": "2026-10-27"
+}

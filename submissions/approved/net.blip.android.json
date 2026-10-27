@@ -1,0 +1,10 @@
+{
+  "name": "Blip",
+  "package": "net.blip.android",
+  "version": "1.1.15",
+  "apk_url": "https://github.com/coderpaullee/apks/releases/download/net.blip.android-1.1.15/Blip_1.1.15_APKPure.xapk",
+  "source_url": "https://github.com/coderpaullee/apks",
+  "description": "File transfer",
+  "sha256": "ac4f67d7a11676c4072215a7bac3e6a0191ddaeecb0d4c23bc4e2eb7b9baeb57",
+  "approved_at": "2026-10-27"
+}
