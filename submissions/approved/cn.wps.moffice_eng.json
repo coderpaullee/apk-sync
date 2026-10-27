@@ -1,10 +1,10 @@
 {
   "name": "WPS Office",
   "package": "cn.wps.moffice_eng",
-  "version": "14.34.1",
-  "apk_url": "https://github.com/coderpaullee/apks/releases/download/cn.wps.moffice_eng-14.34.1/wps.apk",
+  "version": "18.24",
+  "apk_url": "https://github.com/coderpaullee/apks/releases/download/cn.wps.moffice_eng-18.24-en/WPS-Office_18.24_eng.apk",
   "source_url": "https://github.com/coderpaullee/apks",
   "description": "Document editor",
-  "sha256": "5246c04a90876867c28e72144f47294b588f916284af44c112b43e3ab484e595",
-  "approved_at": "2026-03-12"
+  "sha256": "b8cd5d4a7e9a5debc2d5725097ed0a85d2edf1ec09fcd4bb1b39f3a4dced256b",
+  "approved_at": "2026-10-27"
 }
